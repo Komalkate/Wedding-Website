@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main{
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* height:100vh; */
+    padding: 0px 0px 60px 0px;
+}
+.slider-info .a1, .a2{
+    font-family:'Josefin Sans', sans-serif ;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.reg-fom{
+    background: #000000;
+}
+.categories_sub .heading{
+    font-weight: 600;
+}
+.p1 .card:hover{
+    background-color: #E8B15B;
+}
+.p1 .card{
+    background-color:#edeeef;
+}
+.p1 .card:hover .card-title{
+    color: #fff;
+}
+
+.active, .card:hover{
+    background-color: #E8B15B;
+}
+.s1{
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top h4 p{
+    letter-spacing: 1px;
+    line-height: 1.4em;
+}
+.top h4 p{
+    line-height: 1.8em;
+}
+.o2 h4, h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.f1{
+    background-image: url(../images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+.f3 .img{
+    /* margin-bottom: -30px; */
+    height: 80px;
+    width: 80px;
+}
+.f3 h5{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.c1 .submit{
+    width: 25%;   
+}
+.c1 .form-control{
+    width: 100%;
+}
+.t1 .tittle1{
+    letter-spacing: 1px;
+    font-size: 1.3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon1 ul li{
+    display: inline-block;
+}
+.icon1 ul{
+    /* margin-left: 70px; */
+}
+.copyright{
+    background-color: #000000;
+}
+.copy-icon .fa-brands{
+    font-size: 14px;
+    width: 38px;
+    text-align: center;
+    line-height: 34px;
+    height: 38px;
+    border: 2px solid;
+    border-radius: 50%;   
+}
+/* ul.copy-icon li a:hover{ */
+/* color: #36b1af; */
+
+@media (min-width: 768px){
+    
+.f3 .img{
+    /* margin-bottom: -30px; */
+    /* height: 60px; */
+    /* width: 60px; */
+}
+.c1 .submit{
+    width: 25%;   
+}
+.f3 h5{
+    /* margin-right: 30px; */
+    /* margin-bottom: -50px; */
+}
+}
+@media (min-width: 992px){  
+.reg-fom{
+padding:16px 16px 16px ;
+background: #000000;
+margin-top: -8em;
+ }
+ .container{
+    /* margin-top: -7px; */
+}  
+.main{
+    height: 140vh;
+}
+
+.c1 .submit{
+    width: 24%;   
+}
+}
+@media (min-width: 1200px){
+ .container{
+    max-width: 1140px;
+    margin-bottom: 60px;
+}  
+.c1 .submit{
+    width: 22%;   
+}
+.slider-info .a1{
+    padding-top: 180px;
+}
+}
